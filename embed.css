@@ -1,0 +1,105 @@
+    @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500";
+
+
+    .vl-app {
+        position: fixed;
+        top: 100px;
+        right: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+        border-radius: 2px;
+        background-color: #fff;
+        width: 400px;
+        height: 300px;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 0.875rem;
+        font-weight: 400;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        line-height: 1.46429em;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 16px;
+        z-index: 99999999;
+    }
+
+    .vl-app * {
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale
+    }
+
+    .vl-button {
+        margin: 8px;
+        color: #fff;
+        background-color: #2196f3;
+        box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+        padding: 8px 16px;
+        min-width: 88px;
+        font-size: 0.875rem;
+        box-sizing: border-box;
+        min-height: 36px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        line-height: 1.4em;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 500;
+        border-radius: 2px;
+        text-transform: uppercase;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        float: right;
+    }
+
+    .vl-button:hover {
+        background-color: #1976d2;
+    }
+
+    .vl-title {
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 1.5rem !important;
+        font-weight: 400;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        line-height: 1.35417em !important;
+        margin-bottom: 16px !important;
+    }
+
+    .vl-app p code,
+    .vl-app pre code {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .vl-app code {
+        color: rgba(0, 0, 0, 0.87);
+        display: inline-block;
+        padding: 3px 6px;
+        font-size: 14px;
+        line-height: 1.6;
+        font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        background-color: #fff;
+    }
+
+    .vl-app textarea {
+        width: 100%;
+        height: 120px;
+        outline: none;
+        resize: none;
+        border: none;
+        border-radius: 2px;
+        box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .vl-app p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.6;
+    }
