@@ -2,7 +2,7 @@
     var link = document.createElement('link');
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'https://cdn.jsdelivr.net/gh/bren00x/vocab-grabber/embed.css';
+    link.href = 'https://cdn.jsdelivr.net/gh/bren00x/vocab-grabber@latest/embed.css';
     link.media = 'all';
     head.appendChild(link);
 
